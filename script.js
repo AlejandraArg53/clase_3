@@ -1,8 +1,6 @@
 function capturarEtiqueta(){
     console.log ("ingresando a la función capturarEtiqueta()");
-
     const parrafo = document.getElementById("parrafo");
-
     return parrafo;
 }
 
