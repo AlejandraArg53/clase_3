@@ -8,7 +8,15 @@
         <h1>hola</h1>
         <p id="parrafo">Hola, este es un parrafo HTML</p>
         <button onclick="saludar()">SALUDAR</button>
-        <script src="script.js"></script>
-    </body>
-</html>
+        <script>
 
+            const saludar = () => {
+                console.log("saludando..");
+                const etiquetaP = document.getElementById("parrafo");
+                etiquetaP.textContent = "ahora estoy saludando desde una función dentro de HTML"
+            }
+
+        </script>
+    </body>
+    
+</html>
